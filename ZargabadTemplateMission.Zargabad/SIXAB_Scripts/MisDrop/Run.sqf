@@ -34,7 +34,7 @@ _unit setPos _finalLocation;
 _unit allowDamage false;
 
 // Put the unit in a newly created parachute.
-_para = "OH_T10_PARACHUTE" createVehicle (position player);
+_para = "6th_T10_PARACHUTE" createVehicle (position player);
 _para setPos (getPos player);
 player moveInDriver _para;
 

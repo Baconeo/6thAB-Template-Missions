@@ -18,7 +18,13 @@ if (isServer) exitWith {
 	_coordinates = ((_this select 1) vectorAdd [0, 0, 250]);
 	
 	// Create parachute and put player into it (it's a vehicle :|... wtf).
-	_parachute = "NonSteerable_Parachute_F" createVehicle _coordinates;
+	_parachute = "6th_T10_PARACHUTE" createVehicle _coordinates;
 	_parachute setPosATL _coordinates;
 	player moveInDriver _parachute;
+	player allowDamage false;
+	
+	waitUntil {isTouchingGround player};
+
+	//Enable damage taking on the unit
+	player allowDamage true;
 };

@@ -32,6 +32,7 @@ _box addWeaponCargoGlobal ["UK3CB_BAF_L85A2_UGL_HWS_6th",20];
 _box addWeaponCargoGlobal ["UK3CB_BAF_L129A1_FGrip",20];
 _box addWeaponCargoGlobal ["UK3CB_BAF_L86A2_6th",20];
 _box addWeaponCargoGlobal ["UK3CB_BAF_L110A2",20];
+_box addWeaponCargoGlobal ["UK3CB_BAF_L7A2_6th",20];
 _box addWeaponCargoGlobal ["UK3CB_BAF_L131A1",20];
 
 //Ammo
@@ -42,6 +43,8 @@ _box addMagazineCargoGlobal ["UK3CB_BAF_20Rnd",100];
 _box addMagazineCargoGlobal ["UK3CB_BAF_20Rnd_T",100];
 _box addMagazineCargoGlobal ["UK3CB_BAF_100Rnd",100];
 _box addMagazineCargoGlobal ["UK3CB_BAF_100Rnd_T",100];
+_box addMagazineCargoGlobal ["UK3CB_BAF_75Rnd",100];
+_box addMagazineCargoGlobal ["UK3CB_BAF_75Rnd_T",100];
 _box addMagazineCargoGlobal ["UK3CB_BAF_17Rnd_9mm",100];
 
 _box addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell",100];
@@ -105,7 +108,6 @@ _box addItemCargoGlobal ["UK3CB_BAF_H_Mk7_Scrim_F",20];
 _box addItemCargoGlobal ["UK3CB_BAF_G_Tactical_Grey",20];
 _box addItemCargoGlobal ["UK3CB_BAF_G_Tactical_Black",20];
 
-
 _box addItemCargoGlobal ["ACE_MapTools",10];
 _box addItemCargoGlobal ["ACE_EarPlugs",10];
 _box addItemCargoGlobal ["ACE_CableTie",20];
@@ -126,6 +128,14 @@ _box addItemCargoGlobal ["ItemCompass",10];
 _box addItemCargoGlobal ["ItemGPS",10];
 _box addItemCargoGlobal ["ItemMap",10];
 _box addItemCargoGlobal ["ItemWatch",10];
+
+// Explosives
+
+_box addItemCargoGlobal ["ACE_DefusalKit",20];
+_box addItemCargoGlobal ["ACE_Clacker",20];
+
+_box addMagazineCargoGlobal ["DemoCharge_Remote_Mag",30];
+_box addMagazineCargoGlobal ["SatchelCharge_Remote_Mag",30];
 
 // Backpacks
     
