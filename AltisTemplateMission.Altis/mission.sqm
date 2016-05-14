@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14548.559,48.301159,16738.455};
-		dir[]={0.90366066,-0.42410955,-0.0612459};
-		up[]={0.42325655,0.90556055,-0.028685465};
-		aside[]={-0.067635149,-3.658497e-006,-0.99782705};
+		pos[]={14626.17,48.301159,16744.189};
+		dir[]={0.5354808,-0.53018004,0.65756643};
+		up[]={0.33484179,0.84782845,0.41118607};
+		aside[]={0.77550334,-2.638204e-006,-0.63152957};
 	};
 };
 binarizationWanted=0;
@@ -59,7 +59,6 @@ addons[]=
 	"ace_sitting",
 	"ace_cargo",
 	"PansyLandRovers",
-	"alive_sup_multispawn",
 	"6th_Parachutes"
 };
 randomSeed=6813744;
@@ -118,7 +117,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=72;
+		items=71;
 		class Item0
 		{
 			dataType="Object";
@@ -9149,116 +9148,6 @@ class Mission
 			};
 		};
 		class Item70
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={14692.721,17.90974,16723.125};
-			};
-			id=199;
-			type="ALiVE_sup_multispawn";
-			atlOffset=-0.00025939941;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ALiVE_sup_multispawn_spawntype";
-					expression="_this setVariable ['spawntype',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="forwardspawn";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ALiVE_sup_multispawn_timeout";
-					expression="_this setVariable ['timeout',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="60";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ALiVE_sup_multispawn_spawningnearenemiesallowed";
-					expression="_this setVariable ['spawningnearenemiesallowed',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ALiVE_sup_multispawn_respawnWithGear";
-					expression="_this setVariable ['respawnWithGear',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ALiVE_sup_multispawn_debug";
-					expression="_this setVariable ['debug',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item71
 		{
 			dataType="Object";
 			class PositionInfo
